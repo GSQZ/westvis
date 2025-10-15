@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="zh" data-theme="light">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>西域视算 · WestVis</title>
+    <meta name="description" content="西域视算 · 多语言（少数民族语言）语音合成、识别与图像识别服务" />
+    <link rel="preconnect" href="https://gstatic.aby.pub" />
+    <link href="https://gstatic.aby.pub/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet" />
+    <link href="https://cdn.bootcdn.net/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="https://cdn.bootcdn.net/ajax/libs/remixicon/4.2.0/remixicon.min.css" rel="stylesheet" />
+    <link href="./assets/css/common.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header id="app-header"></header>
+
+    <main>
+      <!-- Hero Section -->
+      <section class="hero container-xxl py-5 position-relative overflow-hidden">
+        <div class="row align-items-center py-5">
+          <div class="col-lg-5 order-1 order-lg-2 text-center mb-4 mb-lg-0">
+            <img src="./assets/images/logo/logo.png" alt="WestVis Logo" class="hero-logo" />
+          </div>
+          <div class="col-lg-7 order-2 order-lg-1 text-center text-lg-start">
+            <h1 class="display-6 fw-800 mb-2 d-none d-md-block" data-i18n-html="hero.titleRich">面向 <span class="gtext">少数民族语言</span> 的 <span class="gtext-2">语音</span> 与 <span class="gtext">图像智能</span></h1>
+            <h1 class="h3 fw-800 mb-3 d-block d-md-none" data-i18n-html="hero.titleRichShort">少数民族语言 · 语音 · 图像智能</h1>
+            <p class="lead text-secondary mb-4" data-i18n="hero.subtitle">
+              提供多语言合成、识别与图像识别服务
+            </p>
+            <div class="d-flex gap-3">
+              <a href="./product.html" class="btn btn-outline-dark btn-lg px-4">
+                <i class="ri-glasses-2-line me-2"></i>
+                <span data-i18n="hero.ctaProduct">查看产品</span>
+              </a>
+              <a href="./team.html" class="btn btn-primary btn-lg px-4">
+                <i class="ri-team-line me-2"></i>
+                <span data-i18n="hero.ctaTeam">查看团队</span>
+              </a>
+              <a href="#capabilities" class="btn btn-outline-dark btn-lg px-4" data-no-spa="true" data-scroll-target="#capabilities">
+                <i class="ri-information-line me-2"></i>
+                <span data-i18n="hero.ctaLearn">立即了解</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Capabilities -->
+      <section id="capabilities" class="container-xxl py-5">
+        <div class="section-head d-flex align-items-end justify-content-between mb-4">
+          <h2 class="h3 fw-700 mb-0" data-i18n="cap.title">我们的能力</h2>
+          <span class="text-secondary" data-i18n="cap.subtitle">语音 · 语言 · 视觉</span>
+        </div>
+        <div class="row g-4">
+          <div class="col-md-4">
+            <div class="card feature-card h-100">
+              <div class="card-body">
+                <div class="icon-wrap bg-primary-subtle text-primary">
+                  <i class="ri-sound-module-line"></i>
+                </div>
+                <h3 class="h5 mt-3 mb-2" data-i18n="cap.tts.title">语音合成（TTS）</h3>
+                <p class="text-secondary" data-i18n="cap.tts.desc">
+                  多语种高自然度音色，适配少数民族语言；角色化与情感化表达。
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card feature-card h-100">
+              <div class="card-body">
+                <div class="icon-wrap bg-success-subtle text-success">
+                  <i class="ri-mic-2-line"></i>
+                </div>
+                <h3 class="h5 mt-3 mb-2" data-i18n="cap.asr.title">语音识别（ASR）</h3>
+                <p class="text-secondary" data-i18n="cap.asr.desc">
+                  精准识别口音与方言，实时/离线两种模式，端云一体化部署。
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card feature-card h-100">
+              <div class="card-body">
+                <div class="icon-wrap bg-warning-subtle text-warning">
+                  <i class="ri-brain-line"></i>
+                </div>
+                <h3 class="h5 mt-3 mb-2" data-i18n="cap.cv.title">多模态理解（VLM）</h3>
+                <p class="text-secondary" data-i18n="cap.cv.desc">
+                  AI 识图：多模态大模型进行图像理解、视觉问答、描述生成与检索；支持多语种与领域适配。
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Languages -->
+      <section class="container-xxl py-5">
+        <div class="row g-4 align-items-center">
+          <div class="col-lg-6 order-2 order-lg-1">
+            <h2 class="h3 fw-700" data-i18n="langs.title">多语言覆盖</h2>
+            <p class="text-secondary mb-2" data-i18n="langs.desc1">
+              覆盖汉语、维吾尔语等多种语言与方言，支持自定义语料与领域适配。
+            </p>
+            <p class="text-secondary" data-i18n="langs.desc2">
+              训练管线可扩展至更多语种，持续演进，轻松对接您现有业务系统。
+            </p>
+          </div>
+          <div class="col-lg-6 order-1 order-lg-2">
+            <div class="grid-badges">
+              <div class="badge-tile">汉语</div>
+              <div class="badge-tile">ئۇيغۇرچە</div>
+              <div class="badge-tile">Qazaq</div>
+              <div class="badge-tile">Kazak</div>
+              <div class="badge-tile">Kirgiz</div>
+              <div class="badge-tile">More…</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- CTA -->
+      <section class="container-xxl py-5">
+        <div class="cta glass rounded-4 p-4 p-lg-5 d-flex flex-column flex-lg-row align-items-center justify-content-between">
+          <div>
+            <h3 class="fw-700 mb-2" data-i18n="cta.title">从原型到落地，我们一起更快</h3>
+            <p class="mb-0 text-secondary" data-i18n="cta.desc">模块化能力与开放 API，快速集成到您的应用中</p>
+          </div>
+          <a href="./team.html" class="btn btn-primary mt-3 mt-lg-0 px-4">
+            <i class="ri-user-star-line me-2"></i>
+            <span data-i18n="cta.button">认识我们的团队</span>
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <footer id="app-footer" class="mt-auto"></footer>
+
+    <script src="https://cdn.bootcdn.net/ajax/libs/bootstrap/5.3.3/js/bootstrap.bundle.min.js"></script>
+    <script src="./assets/js/common.js"></script>
+  </body>
+  </html>
+
+
